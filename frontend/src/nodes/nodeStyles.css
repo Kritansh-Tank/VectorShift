@@ -1,0 +1,26 @@
+.node-base{
+  width:220px;
+  min-height:72px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #222;
+}
+.node-header{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:8px;
+  border-bottom: 1px solid #f1f1f1;
+  background: #fafafa;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+.node-icon{ width:20px; height:20px; display:flex; align-items:center; justify-content:center }
+.node-title{ font-weight:600; font-size:13px }
+.node-body{ padding:8px; font-size:13px }
+
+/* small tweaks for handles if using absolute styles */
+.react-flow__handle{ background: #666 !important }
