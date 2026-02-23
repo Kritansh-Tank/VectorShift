@@ -121,3 +121,7 @@ The backend implementation in `backend/main.py` exposes `POST /pipelines/parse` 
 - Clear cycle detection: if some nodes never reach in-degree zero during processing, a cycle is present.
 
 Alternative (DFS-based) cycle-detection approaches exist (track recursion stack/visited sets) and are equally valid. Kahn's algorithm was chosen here for its clarity, non-recursive nature, and straightforward mapping to in-degree bookkeeping used by the app.
+
+## License
+
+MIT License - See LICENSE file for details
